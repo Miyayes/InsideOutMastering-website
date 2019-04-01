@@ -15,7 +15,7 @@ section {
 
 .splash {
   padding-top: 6em;
-  background-image: linear-gradient( rgba(24, 24, 24, 1), rgba(24, 24, 24, .2) ), url("../images/NYC-night.jpg");
+  background-image: linear-gradient( rgba(24, 24, 24, 1), rgba(24, 24, 24, .3) ), url("../images/NYC-night.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
