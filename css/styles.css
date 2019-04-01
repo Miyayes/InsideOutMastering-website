@@ -14,25 +14,36 @@ section {
 }
 
 .splash {
-  background-image: linear-gradient( rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) ), url("../images/NYC.jpg");
+  padding-top: 6em;
+  background-image: linear-gradient( rgba(24, 24, 24, .7), rgba(24, 24, 24, .7) ), url("../images/NYC-night.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: middle;
+  background-position: bottom;
   height: 500px;
+  margin: -85px;
 }
 
 .splashText {
   margin: auto;
-  font-size: 3rem;
-  font-weight: 600;
+  padding: 1.5em;
+  max-width: 600px;
+  font-size: 2.4em;
+  line-height: 1.2em;
+  font-weight: 400;
   letter-spacing: 0.0001em;
-
+  text-align: center;
+  color: white;
 }
 
 /* Navbar BS override */
 .navbar {
-  padding: 1.5em;
-  box-shadow: 0px 12px 18px -6px rgba(34,56,101,0.1);
+  padding: 1.4em 1.4em 0 1.4em;
+  /* box-shadow: 0px 12px 18px -6px rgba(34,56,101,0.1); */
+  background-color: none;
+}
+
+#logo {
+  filter: invert(1)
 }
 
 /* Main logo el */
