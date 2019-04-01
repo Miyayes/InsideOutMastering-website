@@ -14,30 +14,37 @@ section {
 }
 
 .splash {
-  padding-top: 6em;
-  background-image: linear-gradient( rgba(24, 24, 24, 1), rgba(24, 24, 24, .3) ), url("../images/NYC-night.jpg");
+  padding-top: 8em;
+  background-image: linear-gradient( rgba(33, 33, 33, .3), rgba(0, 0, 0, 0)), url("../images/cathedral.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
   height: 500px;
   margin: -85px;
 }
 
 .splashText {
   margin: auto;
-  padding: 1.25em;
+  padding: 2em;
   max-width: 650px;
-  font-size: 2.4em;
-  line-height: 1.2em;
+  font-size: 1.75em;
+  line-height: 1.5em;
   font-weight: 400;
   letter-spacing: 0.0001em;
   text-align: center;
   color: white;
 }
 
+.splashText p#subtext {
+  font-size: 1.25rem;
+  line-height: initial;
+  color: rgb(245, 245, 245);
+  font-weight: 400;
+}
+
 /* Navbar BS override */
 .navbar {
-  padding: 1.4em 1.4em 0 1.4em;
+  padding: 1.4em 1.4em 0 2.0em;
   /* box-shadow: 0px 12px 18px -6px rgba(34,56,101,0.1); */
   background-color: none;
 }
@@ -46,6 +53,10 @@ section {
   color: white;
   text-transform: lowercase;
   margin-right: 1.5em;
+}
+
+.navbar-nav a.nav-item.nav-link:hover {
+  transition: 0.5s;
 }
 
 #logo {
@@ -61,11 +72,30 @@ section {
 /* Cards */
 
 .cardRows {
-  margin-top: -7em;
+  margin-top: -4.5em;
 }
 
 .card {
   margin: .5em;
-  box-shadow: 0px 12px 18px -6px rgba(34,56,101,0.2);
+  box-shadow: 0px 12px 18px -6px rgba(34,56,101,0.15);
   border: none;
+  color: rgb(88,88,88);
+}
+
+.card-img-top {
+  height: 240px;
+  object-fit: cover;
+  object-position: bottom;
+  z-index: 0;
+  
+}
+
+.card-img-top:hover {
+  opacity: 0.88;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.card-title {
+  font-weight: 800;
 }
