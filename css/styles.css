@@ -1,0 +1,43 @@
+html {
+}
+
+body {
+  background: none; /* BS override */
+}
+
+.wrapper {
+  padding: 2em;
+}
+
+section {
+  background: none;
+}
+
+.splash {
+  background-image: linear-gradient( rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) ), url("../images/NYC.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: middle;
+  height: 500px;
+}
+
+.splashText {
+  margin: auto;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 0.0001em;
+
+}
+
+/* Navbar BS override */
+.navbar {
+  padding: 1.5em;
+  box-shadow: 0px 12px 18px -6px rgba(34,56,101,0.1);
+}
+
+/* Main logo el */
+#logo:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
