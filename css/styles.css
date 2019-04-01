@@ -1,8 +1,8 @@
-html {
-}
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
 
 body {
   background: none; /* BS override */
+  font-family: "Libre Franklin", sans-serif;
 }
 
 .wrapper {
@@ -15,7 +15,7 @@ section {
 
 .splash {
   padding-top: 6em;
-  background-image: linear-gradient( rgba(24, 24, 24, .7), rgba(24, 24, 24, .7) ), url("../images/NYC-night.jpg");
+  background-image: linear-gradient( rgba(24, 24, 24, 1), rgba(24, 24, 24, .2) ), url("../images/NYC-night.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -25,8 +25,8 @@ section {
 
 .splashText {
   margin: auto;
-  padding: 1.5em;
-  max-width: 600px;
+  padding: 1.25em;
+  max-width: 650px;
   font-size: 2.4em;
   line-height: 1.2em;
   font-weight: 400;
@@ -42,13 +42,30 @@ section {
   background-color: none;
 }
 
+.navbar-nav a.nav-item.nav-link {
+  color: white;
+  text-transform: lowercase;
+  margin-right: 1.5em;
+}
+
 #logo {
   filter: invert(1)
 }
 
 /* Main logo el */
 #logo:hover {
-  opacity: 0.6;
+  opacity: 0.7;
   transition: 0.3s;
 }
 
+/* Cards */
+
+.cardRows {
+  margin-top: -7em;
+}
+
+.card {
+  margin: .5em;
+  box-shadow: 0px 12px 18px -6px rgba(34,56,101,0.2);
+  border: none;
+}
