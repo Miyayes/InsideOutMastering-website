@@ -14,20 +14,20 @@ section {
 }
 
 .splash {
-  padding-top: 8em;
-  background-image: linear-gradient( rgba(33, 33, 33, .3), rgba(0, 0, 0, 0)), url("../images/cathedral.jpg");
+  padding-top: 7em;
+  background-image: linear-gradient( rgba(247, 0, 169, 0.3), rgba(58, 87, 255, 0.5)), url("../images/seoul.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   height: 500px;
-  margin: -85px;
+  margin-top: -85px;
 }
 
 .splashText {
   margin: auto;
   padding: 2em;
-  max-width: 650px;
-  font-size: 1.75em;
+  max-width: 900px;
+  font-size: 2.5em;
   line-height: 1.5em;
   font-weight: 400;
   letter-spacing: 0.0001em;
@@ -36,7 +36,7 @@ section {
 }
 
 .splashText p#subtext {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   line-height: initial;
   color: rgb(245, 245, 245);
   font-weight: 400;
@@ -98,4 +98,60 @@ section {
 
 .card-title {
   font-weight: 800;
+}
+
+section.content {
+  margin-top: 2em;
+}
+
+/* Philosophy Section */
+
+#philosophy .row div:first-child {
+  background-image: url('../images/cone.jpg');
+  background-size: cover;
+  color: white;
+  min-height: 320px;
+}
+
+#philosophy .row div:last-child {
+  padding: 2em;
+}
+
+#philosophy .row div:last-child p {
+  color: rgb(140, 140, 140);
+  margin-top: 1.25em;
+}
+
+/* Engineer Section */
+
+#engineer .row div:last-child {
+}
+
+#engineer .row div:first-child {
+  padding: 2em;
+}
+
+#engineer .row div:first-child p {
+  color: rgb(140, 140, 140);
+  margin-top: 1.25em;
+}
+
+/* Submission Section */
+
+#submission {
+  background-color: rgb(244, 244, 244);
+  padding: 2.5em;
+}
+
+#submission .row div:first-child {
+  min-height: 240px;
+}
+
+#subission .row div:last-child {
+  padding: 2em;
+}
+
+#submission .row div p {
+  color: rgb(159, 159, 159);
+  margin-top: 1.25em;
 }
