@@ -70,75 +70,57 @@ section {
   padding: 2em;
 }
 
-/* Cards */
-
-.cardRows {
-  margin-top: -4.5em;
-}
-
-.card {
-  margin: .5em;
-  box-shadow: 0px 12px 18px -6px rgba(34,56,101,0.15);
-  border: none;
-}
-
-.card-img-top {
-  height: 240px;
-  object-fit: cover;
-  object-position: bottom;
-  z-index: 0;
-  
-}
-
-.card-img-top:hover {
-  opacity: 0.88;
-  transition: 0.5s;
-  cursor: pointer;
-}
-
-.card-title {
-  font-weight: 800;
-}
-
 section.content {
   color: #a6a6a6;
 }
 
-/* Philosophy Section */
-
-#philosophy .row div:last-child p {
-  margin-top: 1.25em;
+footer {
+  background: #202029;;
+  height: 4em;
 }
 
-/* Engineer Section */
-
-#engineer .row div:last-child {
+.footerContent {
+  width: 900px;
+  margin: auto;
+  color: white;
+  padding: 1em;
 }
 
-#engineer .row div:first-child {
-  padding: 2em;
+.footerColumn {
+  display: inline-block;
+  width: 400px;
 }
 
-#engineer .row div:first-child p {
-  color: rgb(140, 140, 140);
-  margin-top: 1.25em;
+#copyright {
+  text-align: right;
+  color: #737373;
+  font-size: .7em;
 }
 
-/* Submission Section */
-
-#submission {
+.insideOutButton {
+  background: none;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  padding: .5em 1em .5em 1em;
 }
 
-#submission .row div:first-child {
-  min-height: 240px;
+.insideOutButton:hover {
+  background: white;
+  color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  padding: .5em 1em .5em 1em;
+  transition: 0.3s;
 }
 
-#subission .row div:last-child {
-  padding: 2em;
+#getStartedButton {
+  margin-top: 1em;
 }
 
-#submission .row div p {
-  margin-top: 1.25em;
+#submitArrow {
+  margin-left: .5em;
 }
 
 /* Font Awesome */
@@ -148,4 +130,5 @@ section.content {
 
 h3 {
   color: white;
+  margin-bottom: 1em;
 }
